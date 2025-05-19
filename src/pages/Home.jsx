@@ -19,7 +19,7 @@ const Home = () => {
 
   return (
     <div>
-      <h2><i>"Welcome User! Dive into our vast collection of books. Find your next favorite read!"</i></h2>
+      <h2 className='centered-heading'><i>"Step into a world of stories. Your next favorite book awaits!"</i></h2>
       {/* Book Categories with a "Clear Filter" button */}
       <div >
         <BookCategories
@@ -34,7 +34,7 @@ const Home = () => {
           </button>
         )}
       </div>
-      <h2>Popular Books</h2>
+      <h3 className='centered-heading'>Popular Books</h3>
       
       {/* Display filtered books */}
       <BookList books={filteredBooks} />

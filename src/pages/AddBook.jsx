@@ -98,10 +98,6 @@ const AddBook = () => {
           </select>
         </div>
 
-        <div>
-          <label htmlFor="image-upload">Upload Image:</label>
-          <input id="image-upload" type="file" accept="image/*" onChange={handleFileChange} required />
-        </div>
 
         <div className="rating">
           <label>Rating:</label>
@@ -118,7 +114,7 @@ const AddBook = () => {
           </div>
         </div>
 
-        <button type="submit">Add Book</button>
+        <button  type="submit">Add Book</button>
       </form>
     </div>
   );

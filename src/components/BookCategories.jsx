@@ -13,13 +13,12 @@ const categories = [
 
 const BookCategories = ({ onCategorySelect }) => {
   const handleCategorySelect = (category) => {
-    console.log('Selected Category:', category);
     onCategorySelect(category);
   };
 
   return (
     <div >
-      <h3>Book Categories:</h3>
+      <h3 className='centered-heading'>Book Categories:</h3>
       <div className="cat-list">
         {categories.map((category, index) => (
           <button
